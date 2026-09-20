@@ -1,0 +1,38 @@
+{
+  "reference_logZ": "13.94481408114226219900755121619480870990197829310089975517006050797259746786023537891958563506493693",
+  "enumeration": {
+    "precision_digits": 100,
+    "states": 256,
+    "median_seconds": 0.005883592999907705,
+    "samples_seconds": [
+      0.005933047999860719,
+      0.005585705000157759,
+      0.005883592999907705
+    ]
+  },
+  "native": {
+    "positive": {
+      "logZ": "13.94481408101259489740187",
+      "median_seconds": 0.011474906,
+      "points": 1994544,
+      "samples_seconds": [
+        0.012513483,
+        0.011436488,
+        0.011474906
+      ],
+      "absolute_logZ_error": "1.29667301605681216194808709902e-10"
+    },
+    "gh": {
+      "logZ": "13.94481408041320769086724",
+      "median_seconds": 0.010164183,
+      "points": 1889568,
+      "samples_seconds": [
+        0.012197623,
+        0.010123874,
+        0.010164183
+      ],
+      "absolute_logZ_error": "7.29054508140311216194808709902e-10"
+    }
+  },
+  "note": "Local smoke check; timings are not a new full precision sweep. Enumeration uses Python and 100 digits; kernels use C++ binary64, so this is not a matched-implementation speed ranking."
+}
