@@ -27,4 +27,4 @@ The complete six-target high-precision timing sweep, quadrature-node regeneratio
 
 The local environment provided NumPy 2.3.5 and SciPy 1.17.0. mpmath 1.4.1 was loaded from the existing session dependency source with a fresh bytecode cache after its old cache proved unreadable. Published scripts use ordinary package imports and pinned requirements; they do not depend on that temporary folder.
 
-These checks validate the documented examples; they are not a proof of correctness for arbitrary inputs or a floating-point error certificate.
+These checks validate the documented examples.
