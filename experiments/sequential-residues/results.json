@@ -1,0 +1,378 @@
+[
+  {
+    "W": [
+      [
+        1
+      ],
+      [
+        -1
+      ],
+      [
+        0
+      ],
+      [
+        1
+      ]
+    ],
+    "b": [
+      0.02653879181627705,
+      0.09006997260098316,
+      0.12548972661827795,
+      -0.06178804070518654
+    ],
+    "reference_logZ": 3.2695840064469586,
+    "reference_seconds": 0.00036680500033980934,
+    "status": "computed",
+    "logZ": 3.2695840064469586,
+    "Z": "26.300396272008567004",
+    "N": 4,
+    "r": 1,
+    "beta": 1.0,
+    "seconds": 0.001030851999985316,
+    "cutoffs": [
+      10
+    ],
+    "pole_combinations": 21,
+    "cancellation_digits": 1.1665004309229496,
+    "analytical_logZ_truncation": 7.157165835186059e-18,
+    "estimated_relative_residue_tail_bound": 4.550695355305338e-16,
+    "arithmetic": "numpy longdouble",
+    "decimal_precision": 18,
+    "certified_numerical_error": false,
+    "actual_abs_logZ_error": 0.0,
+    "cutoff_refinement_change": 0.0
+  },
+  {
+    "W": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "b": [
+      -0.1305158282997999,
+      -0.26564861407347173,
+      0.23382618414980694,
+      0.14597404330050356
+    ],
+    "reference_logZ": 4.012766126319322,
+    "reference_seconds": 0.0004690780001510575,
+    "status": "computed",
+    "logZ": 4.012766126319322,
+    "Z": "55.299624945115969172",
+    "N": 4,
+    "r": 2,
+    "beta": 1.0,
+    "seconds": 0.0013964679997116036,
+    "cutoffs": [
+      11,
+      11
+    ],
+    "pole_combinations": 529,
+    "cancellation_digits": 3.424524235186034,
+    "analytical_logZ_truncation": 1.4314331670372117e-17,
+    "estimated_relative_residue_tail_bound": 9.429729694147481e-17,
+    "arithmetic": "numpy longdouble",
+    "decimal_precision": 18,
+    "certified_numerical_error": false,
+    "actual_abs_logZ_error": 0.0,
+    "cutoff_refinement_change": 0.0,
+    "literal_sequential_logZ": 4.012766126319322,
+    "literal_vs_batched_logZ_difference": 0.0,
+    "first_integration_trace": [
+      {
+        "m2": -1.0,
+        "F1_real": 11.32620607330765,
+        "F1_imag": -5.922790092789317e-18,
+        "exact_partial": 11.32620607330765,
+        "relative_error": -5.2583805365546965e-18
+      },
+      {
+        "m2": -0.5,
+        "F1_real": 20.065706250099034,
+        "F1_imag": -3.972512130581547e-18,
+        "exact_partial": 20.065706250099026,
+        "relative_error": 3.3241638608405566e-16
+      },
+      {
+        "m2": 0.0,
+        "F1_real": 29.14738215033775,
+        "F1_imag": -2.2109898188861335e-17,
+        "exact_partial": 29.147382150337755,
+        "relative_error": -6.732895491134983e-17
+      },
+      {
+        "m2": 0.5,
+        "F1_real": 33.775769185823584,
+        "F1_imag": -2.391866517269037e-17,
+        "exact_partial": 33.7757691858236,
+        "relative_error": -4.073889663114283e-16
+      },
+      {
+        "m2": 1.0,
+        "F1_real": 26.079377549125457,
+        "F1_imag": 9.10013851213057e-18,
+        "exact_partial": 26.07937754912545,
+        "relative_error": 3.380542373809803e-16
+      }
+    ]
+  },
+  {
+    "W": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "b": [
+      -0.1305158282997999,
+      -0.26564861407347173,
+      0.23382618414980694,
+      0.14597404330050356
+    ],
+    "reference_logZ": 10.910735382745608,
+    "reference_seconds": 0.00011904800021511619,
+    "status": "computed",
+    "logZ": 10.910838826443097,
+    "Z": "54766.765853891411897",
+    "N": 4,
+    "r": 2,
+    "beta": 4.0,
+    "seconds": 0.0006191620000208786,
+    "cutoffs": [
+      6,
+      6
+    ],
+    "pole_combinations": 169,
+    "cancellation_digits": 0.472179241550146,
+    "analytical_logZ_truncation": 0.00010344369748861417,
+    "estimated_relative_residue_tail_bound": 1.236556148535055e-15,
+    "arithmetic": "numpy longdouble",
+    "decimal_precision": 18,
+    "certified_numerical_error": false,
+    "actual_abs_logZ_error": 0.00010344369748871429,
+    "cutoff_refinement_change": 0.0,
+    "literal_sequential_logZ": 10.910838826443097,
+    "literal_vs_batched_logZ_difference": 0.0,
+    "first_integration_trace": [
+      {
+        "m2": -1.0,
+        "F1_real": 634.665325738012,
+        "F1_imag": -1.1961746670733367e-17,
+        "exact_partial": 634.6325005229286,
+        "relative_error": 5.172318634226968e-05
+      },
+      {
+        "m2": -0.5,
+        "F1_real": 235.44117661120367,
+        "F1_imag": -1.1062420538901558e-17,
+        "exact_partial": 235.42899947319367,
+        "relative_error": 5.1723186341767475e-05
+      },
+      {
+        "m2": 0.0,
+        "F1_real": 2682.6819885301543,
+        "F1_imag": -4.3971497842143696e-16,
+        "exact_partial": 2682.5432388463396,
+        "relative_error": 5.172318634255146e-05
+      },
+      {
+        "m2": 0.5,
+        "F1_real": 20183.771632164222,
+        "F1_imag": -2.405628059948013e-15,
+        "exact_partial": 20182.727717177593,
+        "relative_error": 5.1723186343070795e-05
+      },
+      {
+        "m2": 1.0,
+        "F1_real": 40566.59257677127,
+        "F1_imag": 4.407740007954803e-16,
+        "exact_partial": 40564.49445186579,
+        "relative_error": 5.1723186343905305e-05
+      }
+    ]
+  },
+  {
+    "W": [
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0,
+        -1
+      ],
+      [
+        0,
+        1,
+        -1
+      ],
+      [
+        -1,
+        1,
+        1
+      ],
+      [
+        -1,
+        0,
+        -1
+      ]
+    ],
+    "b": [
+      0.05827371873891436,
+      -0.1419306519420511,
+      -0.09093908211493448,
+      -0.07641462421062951,
+      0.18453827635135994,
+      -0.00609089728141288
+    ],
+    "reference_logZ": 7.608754197741096,
+    "reference_seconds": 0.00035183399995730724,
+    "status": "computed",
+    "logZ": 7.608754197741511,
+    "Z": "2015.7652878615108978",
+    "N": 6,
+    "r": 3,
+    "beta": 2.0,
+    "seconds": 0.01051743100015301,
+    "cutoffs": [
+      11,
+      11,
+      11
+    ],
+    "pole_combinations": 12167,
+    "cancellation_digits": 3.673476110094731,
+    "analytical_logZ_truncation": 4.1512325673343967e-13,
+    "estimated_relative_residue_tail_bound": 1.1662836309092007e-15,
+    "arithmetic": "numpy longdouble",
+    "decimal_precision": 18,
+    "certified_numerical_error": false,
+    "actual_abs_logZ_error": 4.156675004196586e-13,
+    "cutoff_refinement_change": 0.0
+  },
+  {
+    "W": [
+      [
+        -1,
+        1,
+        -1,
+        1,
+        -1
+      ],
+      [
+        1,
+        0,
+        -1,
+        0,
+        1
+      ],
+      [
+        1,
+        -1,
+        -1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        -1,
+        -1,
+        -1,
+        0
+      ],
+      [
+        -1,
+        0,
+        -1,
+        -1,
+        1
+      ],
+      [
+        -1,
+        0,
+        -1,
+        1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        1
+      ]
+    ],
+    "b": [
+      -0.11386453926313675,
+      0.014920071040267336,
+      0.00674286356200134,
+      0.10693440934838858,
+      0.20095740615392435,
+      -0.05652831167688816,
+      0.06057960671559275,
+      -0.12660426026359262
+    ],
+    "reference_logZ": 13.944814081142262,
+    "reference_seconds": 0.0002535369999350223,
+    "status": "computed",
+    "logZ": 13.944814081142402,
+    "Z": "1138035.4918988471225",
+    "N": 8,
+    "r": 5,
+    "beta": 2.0,
+    "seconds": 38.616107374999956,
+    "cutoffs": [
+      16,
+      16,
+      16,
+      16,
+      16
+    ],
+    "pole_combinations": 39135393,
+    "cancellation_digits": 9.057167027237703,
+    "analytical_logZ_truncation": 3.5785829175930295e-17,
+    "estimated_relative_residue_tail_bound": 3.1049247579264935e-17,
+    "arithmetic": "numpy longdouble",
+    "decimal_precision": 18,
+    "certified_numerical_error": false,
+    "actual_abs_logZ_error": 1.4033219031261979e-13
+  }
+]

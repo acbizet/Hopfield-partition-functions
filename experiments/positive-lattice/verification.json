@@ -1,0 +1,130 @@
+[
+  {
+    "model": {
+      "W": [
+        [
+          1,
+          2
+        ],
+        [
+          -2,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          -1,
+          2
+        ]
+      ],
+      "b": [
+        0.12,
+        -0.3,
+        0.2,
+        0.09,
+        -0.11
+      ],
+      "beta": 0.7
+    },
+    "reference": {
+      "logZ": 5.1340714743818445,
+      "mean_overlap": 0.018251025532807018,
+      "chi": 0.2393461702506908
+    },
+    "positive": {
+      "logZ": 5.1340714743556575,
+      "terms": 506,
+      "K": [
+        11,
+        11
+      ],
+      "precision": "float64",
+      "mean_overlap": 0.018251025532934027,
+      "chi": 0.2393461702483161
+    },
+    "bounds": {
+      "K": [
+        11,
+        11
+      ],
+      "relative_Z_tail_bound": 8.47940417619797e-11,
+      "logZ_tail_bound": 8.479404176557472e-11,
+      "per_coordinate_bounds": [
+        4.239702088099007e-11,
+        4.239702088098963e-11
+      ],
+      "scope": "analytic truncation bound evaluated in float64; rounding excluded"
+    },
+    "logZ_loss": 2.6187052526438492e-11
+  },
+  {
+    "model": {
+      "W": [
+        [
+          1,
+          2
+        ],
+        [
+          -2,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          -1,
+          2
+        ]
+      ],
+      "b": [
+        0.12,
+        -0.3,
+        0.2,
+        0.09,
+        -0.11
+      ],
+      "beta": 12.0
+    },
+    "reference": {
+      "logZ": 56.17440243144848,
+      "mean_overlap": -0.3107534543150912,
+      "chi": 0.35404693108035384
+    },
+    "positive": {
+      "logZ": 56.17440243144847,
+      "terms": 110,
+      "K": [
+        5,
+        5
+      ],
+      "precision": "float64",
+      "mean_overlap": -0.31075345431509327,
+      "chi": 0.3540469310803521
+    },
+    "bounds": {
+      "K": [
+        5,
+        5
+      ],
+      "relative_Z_tail_bound": 3.4073621658126824e-19,
+      "logZ_tail_bound": 3.4073621658126824e-19,
+      "per_coordinate_bounds": [
+        1.7036810829063412e-19,
+        1.7036810829063412e-19
+      ],
+      "scope": "analytic truncation bound evaluated in float64; rounding excluded"
+    },
+    "logZ_loss": 7.105427357601002e-15
+  }
+]
