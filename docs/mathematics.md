@@ -47,10 +47,10 @@ For $b_i(h)=b_i+h a_i$, let $M=N^{-1}\sum_i a_i\sigma_i$, $u_i=\beta(b_i+h a_i+W
 
 $$
 \langle M\rangle=\mathbb E[T]/N,\qquad
-\chi=\frac\beta N\left(\operatorname{Var}(T)+\mathbb E[V]\right).
+\chi=\frac\beta N\left(\mathrm{Var}(T)+\mathbb E[V]\right).
 $$
 
-The implementation combines variances across batches and avoids subtraction in evaluating $\operatorname{sech}^2$. These formulas concern real-field derivatives. Arbitrary real-weight differentiation is not justified by an identity restricted to integer weights.
+The implementation combines variances across batches and avoids subtraction in evaluating $\mathrm{sech}^2$. These formulas concern real-field derivatives. Arbitrary real-weight differentiation is not justified by an identity restricted to integer weights.
 
 ## Residues and criticality
 
