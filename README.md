@@ -99,6 +99,5 @@ Investigate higher rank and larger systems; compare against structure-aware alte
 
 ## Provenance and reuse
 
-These experiments were developed in an AI-assisted research session. The package preserves original result files and records source hashes in [provenance.json](results/provenance.json). Packaging changes are listed in [evidence.md](docs/evidence.md). Independent review remains necessary before relying on the implementation for new regimes.
+The package preserves original result files and records source hashes in [provenance.json](results/provenance.json). Packaging changes are listed in [evidence.md](docs/evidence.md). Independent review remains necessary before relying on the implementation for new regimes.
 
-No software license has been selected for this prepared release. No third-party libraries are vendored. An open-source license and author citation metadata can be added by the repository owner before distribution under those terms.
