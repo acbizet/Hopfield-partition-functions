@@ -1,0 +1,7 @@
+{
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.39",
+  "machine": "x86_64",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0",
+  "flags": "-O3 -std=c++17; no fast-math; linked libquadmath",
+  "thread_count": 1
+}

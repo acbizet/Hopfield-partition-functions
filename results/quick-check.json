@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "spin_states": 32,
+  "positive": {
+    "logZ": 5.1340714743556575,
+    "terms": 506,
+    "K": [
+      11,
+      11
+    ],
+    "precision": "float64",
+    "mean_overlap": 0.018251025532934027,
+    "chi": 0.2393461702483161
+  },
+  "enumeration": {
+    "logZ": 5.1340714743818445,
+    "mean_overlap": 0.018251025532807018,
+    "chi": 0.2393461702506908
+  },
+  "absolute_errors": {
+    "logZ": 2.6187052526438492e-11,
+    "mean_overlap": 1.270095140171179e-13,
+    "chi": 2.3747115385219786e-12
+  },
+  "bounds": {
+    "K": [
+      11,
+      11
+    ],
+    "relative_Z_tail_bound": 8.47940417619797e-11,
+    "logZ_tail_bound": 8.479404176557472e-11,
+    "per_coordinate_bounds": [
+      4.239702088099007e-11,
+      4.239702088098963e-11
+    ],
+    "scope": "analytic truncation bound evaluated in float64; rounding excluded"
+  }
+}

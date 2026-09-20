@@ -1,0 +1,386 @@
+[
+  {
+    "source": "positive-hopfield-formula/requirements.txt",
+    "packaged": "experiments/positive-lattice/requirements.txt",
+    "source_sha256": "1668a3152e33680d94637b13421c15e68bd97cd8701f7f555c691f5bc5c0b9f3",
+    "packaged_sha256": "1668a3152e33680d94637b13421c15e68bd97cd8701f7f555c691f5bc5c0b9f3"
+  },
+  {
+    "source": "positive-hopfield-formula/verification.json",
+    "packaged": "experiments/positive-lattice/verification.json",
+    "source_sha256": "2ff606d2e608132789d5ff6fec3f26586b5ecf9f337d0427c0ff6de35b631745",
+    "packaged_sha256": "2ff606d2e608132789d5ff6fec3f26586b5ecf9f337d0427c0ff6de35b631745"
+  },
+  {
+    "source": "positive-hopfield-formula/environment.json",
+    "packaged": "experiments/positive-lattice/environment.json",
+    "source_sha256": "abb846b5b5cbc4d63a8767a79a44e4462e4ab6bf31056de7c7b4e0a3246286a2",
+    "packaged_sha256": "abb846b5b5cbc4d63a8767a79a44e4462e4ab6bf31056de7c7b4e0a3246286a2"
+  },
+  {
+    "source": "positive-hopfield-formula/README.md",
+    "packaged": "experiments/positive-lattice/README.md",
+    "source_sha256": "71c777bea2e1ee0fe473a60a933f7cb4ee02c615b036292657691dd87663cdcc",
+    "packaged_sha256": "a419dcfa7121eb00f1376cdbb41f766b24344ad3e781b815b89c32f6010f5c8a"
+  },
+  {
+    "source": "positive-hopfield-formula/verify.py",
+    "packaged": "experiments/positive-lattice/verify.py",
+    "source_sha256": "66f3a61f5e28d860f4c020b425715e42e50cbbcacf2a339e1c59c5d612908c0a",
+    "packaged_sha256": "66f3a61f5e28d860f4c020b425715e42e50cbbcacf2a339e1c59c5d612908c0a"
+  },
+  {
+    "source": "positive-hopfield-formula/rank5_input.json",
+    "packaged": "experiments/positive-lattice/rank5_input.json",
+    "source_sha256": "0027692899dd4ebb9d06a4ae118cbaa22066b6037e0f740e09d03175c3c36eb6",
+    "packaged_sha256": "0027692899dd4ebb9d06a4ae118cbaa22066b6037e0f740e09d03175c3c36eb6"
+  },
+  {
+    "source": "positive-hopfield-formula/legacy_residue.py",
+    "packaged": "experiments/positive-lattice/legacy_residue.py",
+    "source_sha256": "cef653b66e0a2e086dcc8c063e317a359a09ad192c9659399d127a736f497863",
+    "packaged_sha256": "cef653b66e0a2e086dcc8c063e317a359a09ad192c9659399d127a736f497863"
+  },
+  {
+    "source": "positive-hopfield-formula/positive.py",
+    "packaged": "experiments/positive-lattice/positive.py",
+    "source_sha256": "ebf8ac3bd239a1f6d234c8173aea33803591750d4cfcf6ac72f9f950d2abacb2",
+    "packaged_sha256": "ebf8ac3bd239a1f6d234c8173aea33803591750d4cfcf6ac72f9f950d2abacb2"
+  },
+  {
+    "source": "positive-hopfield-formula/results.json",
+    "packaged": "experiments/positive-lattice/results.json",
+    "source_sha256": "ddf69dc0befb9dca8acbffdc90038d6b640a98df8cce6032170c688e3ae906e2",
+    "packaged_sha256": "ddf69dc0befb9dca8acbffdc90038d6b640a98df8cce6032170c688e3ae906e2"
+  },
+  {
+    "source": "high-precision-hopfield/evaluate.cpp",
+    "packaged": "experiments/high-precision/evaluate.cpp",
+    "source_sha256": "3c1616be39cd7d2de1f6e8e78909e5e8d25ebd486649f83649d9f1166b96c7a0",
+    "packaged_sha256": "3c1616be39cd7d2de1f6e8e78909e5e8d25ebd486649f83649d9f1166b96c7a0"
+  },
+  {
+    "source": "high-precision-hopfield/refine_recorded_orders.py",
+    "packaged": "experiments/high-precision/refine_recorded_orders.py",
+    "source_sha256": "175a1502e7d8d505f1c18640f7fe9320c45b8d67c1940904865cf9cd6c6a9925",
+    "packaged_sha256": "93f7011c5667c21ceed0d0eaea4504970dea432d0a231355ba4aadaf19623266"
+  },
+  {
+    "source": "high-precision-hopfield/requirements.txt",
+    "packaged": "experiments/high-precision/requirements.txt",
+    "source_sha256": "947062fb767d3dc8a5b3dc4876d67269d9f36510931af227b09f9eb202cd21a9",
+    "packaged_sha256": "947062fb767d3dc8a5b3dc4876d67269d9f36510931af227b09f9eb202cd21a9"
+  },
+  {
+    "source": "high-precision-hopfield/environment.json",
+    "packaged": "experiments/high-precision/environment.json",
+    "source_sha256": "5bd42d207cf2d324bb6a8a3113b786f43958de63c23f77701211070e4b53d63b",
+    "packaged_sha256": "5bd42d207cf2d324bb6a8a3113b786f43958de63c23f77701211070e4b53d63b"
+  },
+  {
+    "source": "high-precision-hopfield/make_report.py",
+    "packaged": "experiments/high-precision/make_report.py",
+    "source_sha256": "11abc95615d03cee2dfbb9b773676cef6b136db2be0f56a8e53d9472b21e92d9",
+    "packaged_sha256": "df2a2b42adde39ff3f6f5af801179a419f1599ce9c2d341d1440130e27dcd9e2"
+  },
+  {
+    "source": "high-precision-hopfield/quad_probe.cpp",
+    "packaged": "experiments/high-precision/quad_probe.cpp",
+    "source_sha256": "9103ca43c07b6e3eeac0e0b7595a68de8ba03776d2860b20a353be3e6726c3e8",
+    "packaged_sha256": "9103ca43c07b6e3eeac0e0b7595a68de8ba03776d2860b20a353be3e6726c3e8"
+  },
+  {
+    "source": "high-precision-hopfield/README.md",
+    "packaged": "experiments/high-precision/README.md",
+    "source_sha256": "3e1fcc79f11225f61a7df95487d3445247c3185c4060fa7bac2e0293e83325bd",
+    "packaged_sha256": "b36e01ae0c05fd0fef0ea44f21fc32c9341ee39ed78921df4954da304e546397"
+  },
+  {
+    "source": "high-precision-hopfield/model.json",
+    "packaged": "experiments/high-precision/model.json",
+    "source_sha256": "acceac02b351907a2ffd8fe784b25a992cbb1b83c037ebde7532ee5fdd93b696",
+    "packaged_sha256": "acceac02b351907a2ffd8fe784b25a992cbb1b83c037ebde7532ee5fdd93b696"
+  },
+  {
+    "source": "high-precision-hopfield/calibration.json",
+    "packaged": "experiments/high-precision/calibration.json",
+    "source_sha256": "bc7f91d359059190a9299e0557c2da04acb43a032a197c60b319aad51dfeb290",
+    "packaged_sha256": "bc7f91d359059190a9299e0557c2da04acb43a032a197c60b319aad51dfeb290"
+  },
+  {
+    "source": "high-precision-hopfield/results.json",
+    "packaged": "experiments/high-precision/results.json",
+    "source_sha256": "3391866a608d2b9b17283e3f409b5d0a8dd0f0a13017d6d189ca8cf281bf6c09",
+    "packaged_sha256": "3391866a608d2b9b17283e3f409b5d0a8dd0f0a13017d6d189ca8cf281bf6c09"
+  },
+  {
+    "source": "high-precision-hopfield/benchmark.py",
+    "packaged": "experiments/high-precision/benchmark.py",
+    "source_sha256": "49e659a3fb419baf1a9a79c453fe9e00a61cfb2dd68f5bae92ddcbe81468c5a7",
+    "packaged_sha256": "8cc65840498539c3ad25eba86d4714ce2fa30ea6ca96e845e2b73e0932a888db"
+  },
+  {
+    "source": "high-precision-hopfield/prepare.py",
+    "packaged": "experiments/high-precision/prepare.py",
+    "source_sha256": "ab8dac8575785717e27156e6e917c1c8d75c17c56f23ee3111cfc486d827c486",
+    "packaged_sha256": "5660ab1658526d4042f6b4357b3a57924ba0ffe70d05937508e0886ac450da5a"
+  },
+  {
+    "source": "high-precision-hopfield/input.txt",
+    "packaged": "experiments/high-precision/input.txt",
+    "source_sha256": "c245c0d3599543478aed5e8a08d8d84e9080b002b7b070dd93b3ee554b5b1fea",
+    "packaged_sha256": "c245c0d3599543478aed5e8a08d8d84e9080b002b7b070dd93b3ee554b5b1fea"
+  },
+  {
+    "source": "high-precision-hopfield/rules/31.txt",
+    "packaged": "experiments/high-precision/rules/31.txt",
+    "source_sha256": "0d10bb7b607f760c02285e1367c04b8c32fa368df9f7c4b41d2479ce3032aca6",
+    "packaged_sha256": "0d10bb7b607f760c02285e1367c04b8c32fa368df9f7c4b41d2479ce3032aca6"
+  },
+  {
+    "source": "high-precision-hopfield/rules/44.txt",
+    "packaged": "experiments/high-precision/rules/44.txt",
+    "source_sha256": "e94d41ba887fed3da0c11b82c185e49d0035e1b9126a3df22eb1e91a354f8444",
+    "packaged_sha256": "e94d41ba887fed3da0c11b82c185e49d0035e1b9126a3df22eb1e91a354f8444"
+  },
+  {
+    "source": "high-precision-hopfield/rules/37.txt",
+    "packaged": "experiments/high-precision/rules/37.txt",
+    "source_sha256": "5a2245c7e1e2162613bcc59d30808f378c148fee8b834a16a8acc890055bb20b",
+    "packaged_sha256": "5a2245c7e1e2162613bcc59d30808f378c148fee8b834a16a8acc890055bb20b"
+  },
+  {
+    "source": "high-precision-hopfield/rules/28.txt",
+    "packaged": "experiments/high-precision/rules/28.txt",
+    "source_sha256": "04fa5ccb178597bd2caf3da75c9dfe71f374c9171960b694abc737d5d40b6113",
+    "packaged_sha256": "04fa5ccb178597bd2caf3da75c9dfe71f374c9171960b694abc737d5d40b6113"
+  },
+  {
+    "source": "high-precision-hopfield/rules/33.txt",
+    "packaged": "experiments/high-precision/rules/33.txt",
+    "source_sha256": "2ff67043a66b3c5abace26594230a732ec1a80fd591705e614c13c1ff0f8a9ff",
+    "packaged_sha256": "2ff67043a66b3c5abace26594230a732ec1a80fd591705e614c13c1ff0f8a9ff"
+  },
+  {
+    "source": "high-precision-hopfield/rules/39.txt",
+    "packaged": "experiments/high-precision/rules/39.txt",
+    "source_sha256": "29e64dce1619d48d04f523fca1a126a9520dc1fde394758c8aa60c6a618bd596",
+    "packaged_sha256": "29e64dce1619d48d04f523fca1a126a9520dc1fde394758c8aa60c6a618bd596"
+  },
+  {
+    "source": "high-precision-hopfield/rules/36.txt",
+    "packaged": "experiments/high-precision/rules/36.txt",
+    "source_sha256": "73f39092c0332b516cffcbcfe057ef7c86a840ef0b0c79bc3703609a78450a1e",
+    "packaged_sha256": "73f39092c0332b516cffcbcfe057ef7c86a840ef0b0c79bc3703609a78450a1e"
+  },
+  {
+    "source": "high-precision-hopfield/rules/19.txt",
+    "packaged": "experiments/high-precision/rules/19.txt",
+    "source_sha256": "ba39c5e44db124abfe51dda73405c42c15a21f1c159bb61174e99a03a7224ff8",
+    "packaged_sha256": "ba39c5e44db124abfe51dda73405c42c15a21f1c159bb61174e99a03a7224ff8"
+  },
+  {
+    "source": "high-precision-hopfield/rules/17.txt",
+    "packaged": "experiments/high-precision/rules/17.txt",
+    "source_sha256": "c91f78c3b9217acf83b0c6c78175242778db1113ad18c93d2646e3b7fd14e1d2",
+    "packaged_sha256": "c91f78c3b9217acf83b0c6c78175242778db1113ad18c93d2646e3b7fd14e1d2"
+  },
+  {
+    "source": "high-precision-hopfield/rules/26.txt",
+    "packaged": "experiments/high-precision/rules/26.txt",
+    "source_sha256": "c75acb060a0dc2842dc983c2324e1fbb699c7fa5e9d9efd4798bfd6b2881482c",
+    "packaged_sha256": "c75acb060a0dc2842dc983c2324e1fbb699c7fa5e9d9efd4798bfd6b2881482c"
+  },
+  {
+    "source": "high-precision-hopfield/rules/38.txt",
+    "packaged": "experiments/high-precision/rules/38.txt",
+    "source_sha256": "9969cfe2e63a96122d9879a27624258011aa7ba3d035af07bf16b3a649e89a56",
+    "packaged_sha256": "9969cfe2e63a96122d9879a27624258011aa7ba3d035af07bf16b3a649e89a56"
+  },
+  {
+    "source": "high-precision-hopfield/rules/40.txt",
+    "packaged": "experiments/high-precision/rules/40.txt",
+    "source_sha256": "c43a850031f641031b0f7a9782a0f80dbe3b94023b3b1b29e4c1c6a04610b08d",
+    "packaged_sha256": "c43a850031f641031b0f7a9782a0f80dbe3b94023b3b1b29e4c1c6a04610b08d"
+  },
+  {
+    "source": "high-precision-hopfield/rules/27.txt",
+    "packaged": "experiments/high-precision/rules/27.txt",
+    "source_sha256": "ce8f3263b84c32a3b9c9d2f260fb8b52ced53c925b1b93bce3138463aedb949e",
+    "packaged_sha256": "ce8f3263b84c32a3b9c9d2f260fb8b52ced53c925b1b93bce3138463aedb949e"
+  },
+  {
+    "source": "high-precision-hopfield/rules/43.txt",
+    "packaged": "experiments/high-precision/rules/43.txt",
+    "source_sha256": "623f202f416a62e60305b103f398193395716f43679bcebc7f369226b6a12f84",
+    "packaged_sha256": "623f202f416a62e60305b103f398193395716f43679bcebc7f369226b6a12f84"
+  },
+  {
+    "source": "high-precision-hopfield/rules/25.txt",
+    "packaged": "experiments/high-precision/rules/25.txt",
+    "source_sha256": "1f76b6c1dd87de152407fefd13e1a972dd511d1410b73fbec902e1030cafb4ca",
+    "packaged_sha256": "1f76b6c1dd87de152407fefd13e1a972dd511d1410b73fbec902e1030cafb4ca"
+  },
+  {
+    "source": "high-precision-hopfield/rules/18.txt",
+    "packaged": "experiments/high-precision/rules/18.txt",
+    "source_sha256": "bb93ac6c81fc5545289be9478f0d2395fff9d662c6432792fed0b0322849f311",
+    "packaged_sha256": "bb93ac6c81fc5545289be9478f0d2395fff9d662c6432792fed0b0322849f311"
+  },
+  {
+    "source": "high-precision-hopfield/rules/29.txt",
+    "packaged": "experiments/high-precision/rules/29.txt",
+    "source_sha256": "c8b40561f1e7618739f1a45547da18776eef815bd796c7f3be1b8c58e490b54c",
+    "packaged_sha256": "c8b40561f1e7618739f1a45547da18776eef815bd796c7f3be1b8c58e490b54c"
+  },
+  {
+    "source": "high-precision-hopfield/rules/41.txt",
+    "packaged": "experiments/high-precision/rules/41.txt",
+    "source_sha256": "7cc314064b3f2dc8eed37f596e2ed43e7dd3086816e62ed80a15abf3493617fd",
+    "packaged_sha256": "7cc314064b3f2dc8eed37f596e2ed43e7dd3086816e62ed80a15abf3493617fd"
+  },
+  {
+    "source": "high-precision-hopfield/rules/30.txt",
+    "packaged": "experiments/high-precision/rules/30.txt",
+    "source_sha256": "663f4560515f0ca755c90ee37d79ede9e787213d7672a7953c427bcb35a77985",
+    "packaged_sha256": "663f4560515f0ca755c90ee37d79ede9e787213d7672a7953c427bcb35a77985"
+  },
+  {
+    "source": "high-precision-hopfield/rules/21.txt",
+    "packaged": "experiments/high-precision/rules/21.txt",
+    "source_sha256": "f509d4d91b34cbd1cbacce481d2b7ab193a9bd1ed3ce685eefb5fbd09fcee62c",
+    "packaged_sha256": "f509d4d91b34cbd1cbacce481d2b7ab193a9bd1ed3ce685eefb5fbd09fcee62c"
+  },
+  {
+    "source": "high-precision-hopfield/rules/23.txt",
+    "packaged": "experiments/high-precision/rules/23.txt",
+    "source_sha256": "3557eab3d59cf468a82441a99ba6d979fb1ccd04391d142d03d194f2a9666d90",
+    "packaged_sha256": "3557eab3d59cf468a82441a99ba6d979fb1ccd04391d142d03d194f2a9666d90"
+  },
+  {
+    "source": "high-precision-hopfield/rules/20.txt",
+    "packaged": "experiments/high-precision/rules/20.txt",
+    "source_sha256": "496eeb20cbaec93fdf334c2fe69646c2030e7ee37c7d651c9423eba4f5d85431",
+    "packaged_sha256": "496eeb20cbaec93fdf334c2fe69646c2030e7ee37c7d651c9423eba4f5d85431"
+  },
+  {
+    "source": "high-precision-hopfield/rules/34.txt",
+    "packaged": "experiments/high-precision/rules/34.txt",
+    "source_sha256": "56e6965c4c9b41c3bf60274a228b4b7a7ad6fea875c41c733298ff967b394f73",
+    "packaged_sha256": "56e6965c4c9b41c3bf60274a228b4b7a7ad6fea875c41c733298ff967b394f73"
+  },
+  {
+    "source": "high-precision-hopfield/rules/42.txt",
+    "packaged": "experiments/high-precision/rules/42.txt",
+    "source_sha256": "d30b9c928f38fab23616fa7d4bcdfb4fba3f9335b5403a3f5e57698671f9010b",
+    "packaged_sha256": "d30b9c928f38fab23616fa7d4bcdfb4fba3f9335b5403a3f5e57698671f9010b"
+  },
+  {
+    "source": "high-precision-hopfield/rules/35.txt",
+    "packaged": "experiments/high-precision/rules/35.txt",
+    "source_sha256": "abc44319b6e86f039ff624c69c79e5516af2c863301cba3cb63a89332415c735",
+    "packaged_sha256": "abc44319b6e86f039ff624c69c79e5516af2c863301cba3cb63a89332415c735"
+  },
+  {
+    "source": "high-precision-hopfield/rules/24.txt",
+    "packaged": "experiments/high-precision/rules/24.txt",
+    "source_sha256": "92c2df6473ebd4164919adcd4c4fbe97b425ba2bca13344972859dd5b4981199",
+    "packaged_sha256": "92c2df6473ebd4164919adcd4c4fbe97b425ba2bca13344972859dd5b4981199"
+  },
+  {
+    "source": "high-precision-hopfield/rules/32.txt",
+    "packaged": "experiments/high-precision/rules/32.txt",
+    "source_sha256": "37486896834e08ca040284223347dfc3e564759ca870db0fe4c01989ad92a4ed",
+    "packaged_sha256": "37486896834e08ca040284223347dfc3e564759ca870db0fe4c01989ad92a4ed"
+  },
+  {
+    "source": "high-precision-hopfield/rules/22.txt",
+    "packaged": "experiments/high-precision/rules/22.txt",
+    "source_sha256": "8afadc3a8f4dfe012fb6eb9e990b3917da16f8be59bd58bed4bfea2469b265f3",
+    "packaged_sha256": "8afadc3a8f4dfe012fb6eb9e990b3917da16f8be59bd58bed4bfea2469b265f3"
+  },
+  {
+    "source": "correlated-hopfield-critical/requirements.txt",
+    "packaged": "experiments/critical-behavior/requirements.txt",
+    "source_sha256": "5a7d630ba836f03530e18463613d41884edb5a0ddf458479709b0a0c516c69f6",
+    "packaged_sha256": "5a7d630ba836f03530e18463613d41884edb5a0ddf458479709b0a0c516c69f6"
+  },
+  {
+    "source": "correlated-hopfield-critical/environment.json",
+    "packaged": "experiments/critical-behavior/environment.json",
+    "source_sha256": "e3d27f392966b1ce41242e05ec476a8667361f93a3f22ed442df43d403b1c47f",
+    "packaged_sha256": "e3d27f392966b1ce41242e05ec476a8667361f93a3f22ed442df43d403b1c47f"
+  },
+  {
+    "source": "correlated-hopfield-critical/README.md",
+    "packaged": "experiments/critical-behavior/README.md",
+    "source_sha256": "a2de5bf5149055e0c9447eed7c88baa288d393c68d996d5a7f7f00e20f8f5cb1",
+    "packaged_sha256": "90061e9555440883551176f3be7b35a1dcfdeb25bc3ccc67b7ad1626b2410abd"
+  },
+  {
+    "source": "correlated-hopfield-critical/results.json",
+    "packaged": "experiments/critical-behavior/results.json",
+    "source_sha256": "722582f68bc5916b8c6de2723cfac0797487521f83ee2a419e31f2e61b68e19a",
+    "packaged_sha256": "722582f68bc5916b8c6de2723cfac0797487521f83ee2a419e31f2e61b68e19a"
+  },
+  {
+    "source": "correlated-hopfield-critical/experiment.py",
+    "packaged": "experiments/critical-behavior/experiment.py",
+    "source_sha256": "a7c4e392e9885472821aef9f424bc31da208dce08c74762ed54d36d5ab1e43d5",
+    "packaged_sha256": "3c65041ae59b7fe14c32c4f929e103906078b74ba9c98f658ab5baaeea2d507a"
+  },
+  {
+    "source": "sequential-residues/solver.py",
+    "packaged": "experiments/sequential-residues/solver.py",
+    "source_sha256": "0c061e16d86b933759bc0b9c793d0d1077227f9417ed1c6cde389487a37e3dd4",
+    "packaged_sha256": "0c061e16d86b933759bc0b9c793d0d1077227f9417ed1c6cde389487a37e3dd4"
+  },
+  {
+    "source": "sequential-residues/results.json",
+    "packaged": "experiments/sequential-residues/results.json",
+    "source_sha256": "eec1ecb1e1ea67c11557a8cf617f030e247be2a5ce08c533fda1a2e8df97d1b3",
+    "packaged_sha256": "eec1ecb1e1ea67c11557a8cf617f030e247be2a5ce08c533fda1a2e8df97d1b3"
+  },
+  {
+    "source": "sequential-residues/report.py",
+    "packaged": "experiments/sequential-residues/report.py",
+    "source_sha256": "216e42fff76915bf839e0e407f02f7bb7a41fa4a824edf08b2cd5480b284fe86",
+    "packaged_sha256": "216e42fff76915bf839e0e407f02f7bb7a41fa4a824edf08b2cd5480b284fe86"
+  },
+  {
+    "source": "sequential-residues/report.md",
+    "packaged": "experiments/sequential-residues/report.md",
+    "source_sha256": "eeddaaaa176b53c3854224450dc396343feeea78528244d8207256222970567d",
+    "packaged_sha256": "eeddaaaa176b53c3854224450dc396343feeea78528244d8207256222970567d"
+  },
+  {
+    "source": "bethe-comparison/run-output.json",
+    "packaged": "experiments/rank-one-descent/run-output.json",
+    "source_sha256": "d2f814071ff945b21bff30e9d6cdff30a361d1212c7740fe55b00f8a21ae65a7",
+    "packaged_sha256": "d2f814071ff945b21bff30e9d6cdff30a361d1212c7740fe55b00f8a21ae65a7"
+  },
+  {
+    "source": "bethe-comparison/make_report.py",
+    "packaged": "experiments/rank-one-descent/make_report.py",
+    "source_sha256": "b3289c48fcba3297ec58c72ca47a1133e2dae9d655288142e454035c3711c101",
+    "packaged_sha256": "b3289c48fcba3297ec58c72ca47a1133e2dae9d655288142e454035c3711c101"
+  },
+  {
+    "source": "bethe-comparison/run.py",
+    "packaged": "experiments/rank-one-descent/run.py",
+    "source_sha256": "7e47da552a511fe2eca1b987bb18f267e159424c7bf11e969612a72c633af5ea",
+    "packaged_sha256": "7e47da552a511fe2eca1b987bb18f267e159424c7bf11e969612a72c633af5ea"
+  },
+  {
+    "source": "bethe-comparison/results.json",
+    "packaged": "experiments/rank-one-descent/results.json",
+    "source_sha256": "d2f814071ff945b21bff30e9d6cdff30a361d1212c7740fe55b00f8a21ae65a7",
+    "packaged_sha256": "d2f814071ff945b21bff30e9d6cdff30a361d1212c7740fe55b00f8a21ae65a7"
+  },
+  {
+    "source": "bethe-comparison/report.md",
+    "packaged": "experiments/rank-one-descent/report.md",
+    "source_sha256": "6e21436ac971092dda633e2ef2f45fa25d5e9ec96b157f55bd81f0a16e0b99ec",
+    "packaged_sha256": "6e21436ac971092dda633e2ef2f45fa25d5e9ec96b157f55bd81f0a16e0b99ec"
+  }
+]
