@@ -43,7 +43,7 @@ See the [positive-lattice derivation](../experiments/positive-lattice/README.md)
 
 ## Field observables
 
-For $b_i(h)=b_i+h a_i$, let $M=N^{-1}\sum_i a_i\sigma_i$, $u_i=\beta(b_i+h a_i+W_i\cdot x)$, $T=\sum_i a_i\tanh u_i$, and $V=\sum_i a_i^2\sech^2u_i$. With positive normalized lattice weights,
+For $b_i(h)=b_i+h a_i$, let $M=N^{-1}\sum_i a_i\sigma_i$, $u_i=\beta(b_i+h a_i+W_i\cdot x)$, $T=\sum_i a_i\tanh u_i$, and $V=\sum_i a_i^2\sech{u_i}^2$. With positive normalized lattice weights,
 
 $$
 \langle M\rangle=\mathbb E[T]/N,\qquad
