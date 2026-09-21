@@ -37,7 +37,7 @@ Let v=(1,1,1)/sqrt(3) and a_i=W_i dot v. The physical susceptibility is defined 
 
 $$
 \chi_N=\left.\partial_h\langle M\rangle_h\right|_{h=0}
-=\beta N\operatorname{Var}_0(M).
+=\beta N\textrm{Var}_0(M).
 $$
 
 Global spin reversal gives mean M=0 at every finite N. There is no singularity at finite N; the critical inverse temperature below refers to the large-N limit.
@@ -67,7 +67,7 @@ Primes here mean derivatives with respect to h, not z. The prefactor, including 
 $$
 I_h''=\beta^2I_h\left[
 \left(\sum_i a_i\tanh u_i\right)^2+
-\sum_i a_i^2\operatorname{sech}^2u_i\right],\quad
+\sum_i a_i^2\textrm{sech}^2u_i\right],\quad
 u_i=\beta(W_i\cdot z+h a_i).
 $$
 
@@ -222,7 +222,7 @@ A full one-coordinate sum is bounded by F=2[1+sqrt(pi)/(d sqrt(alpha))]. Each tw
 
 $$
 T\leq2\left[e^{-\alpha(L-1)^2}+\frac{\sqrt\pi}{2d\sqrt\alpha}
-\operatorname{erfc}(\sqrt\alpha(L-1))\right].
+\textrm{erfc}(\sqrt\alpha(L-1))\right].
 $$
 
 The three-dimensional tail is bounded by 3TF^2 times the displayed prefactor and the residue normalization. Divide by the Jensen lower bound Z>=2^N exp(3 beta/2) to obtain delta_0, a relative-Z tail bound.
