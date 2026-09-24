@@ -8,6 +8,10 @@ on:
       - "results/recorded/**"
       - "requirements.txt"
 
+concurrency:
+  group: regenerate-figures-${{ github.ref }}
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
