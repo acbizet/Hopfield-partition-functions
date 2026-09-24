@@ -1,0 +1,60 @@
+name: Check native kernels
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/check_native.py"
+      - "experiments/high-precision/**"
+      - "results/recorded/high-precision/results.json"
+      - "requirements.txt"
+
+concurrency:
+  group: check-native-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  check-native:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install Python dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Build native evaluator
+        working-directory: experiments/high-precision
+        run: g++ -O3 -std=c++17 evaluate.cpp -lquadmath -o evaluate
+
+      - name: Run native check
+        run: python scripts/check_native.py > results/recorded/high-precision/native-check.json
+
+      - name: Validate generated JSON
+        run: python -m json.tool results/recorded/high-precision/native-check.json > /dev/null
+
+      - name: Commit generated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add results/recorded/high-precision/native-check.json
+
+          if git diff --cached --quiet; then
+            echo "No generated data changes to commit."
+          else
+            git commit -m "Update native kernel check data"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push
+          fi
